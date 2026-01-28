@@ -25,7 +25,8 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	color: #373737;
-	font-size: 14px
+	font-size: 14px;
+	padding-top: 120px;
 }
 
 a,
@@ -204,9 +205,50 @@ img {
 	color: #FFF;
 }
 
+/* main navigation */
+.ds-nav {
+	margin-left: 40px;
+	margin-right: auto;
+}
+
+.ds-nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.ds-nav ul li {
+	margin-right: 24px;
+}
+
+.ds-nav ul li:last-child {
+	margin-right: 0;
+}
+
+.ds-nav ul li a {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #373737;
+}
+
+.ds-nav ul li a:hover,
+.ds-nav ul li a.active {
+	color: #57b2f7;
+}
+
 /*-----------------------------------------------------------------
   2. >>> Banner Style
 ----------------------------------------------------------------*/
+.ds-banner {
+	margin-top: -20px;
+}
+
+.ds-banner section {
+	padding-left: 70px;
+	padding-right: 100px;
+}
 .ds-banner section {
 	padding-left: 70px;
 	padding-right: 100px;
@@ -262,7 +304,7 @@ img {
   3. >>> About Style
 ----------------------------------------------------------------*/
 .ds-about-section {
-	padding-top: 60px;
+	padding-top: 120px;
 	padding-bottom: 60px;
 }
 
@@ -416,12 +458,13 @@ span.ds-department {
   6. >>> Work Style
 ----------------------------------------------------------------*/
 .ds-work-section {
+	padding-top: 60px;
 	padding-bottom: 80px;
 }
 
 .ds-work-list {
 	padding-left: 70px;
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-bottom: 40px;
 	padding-right: 70px;
 	background-color: #F6F8FA;
@@ -563,7 +606,8 @@ span.ds-department {
 }
 
 .ds-logo-image {
-	border-radius: 10px;
+	border-radius: 30px;
+	padding: 15px;
 }
 
 .ds-award {
@@ -582,6 +626,20 @@ span.ds-department {
 	.ds-header,
 	.ds-header.ds-fixed-header {
 		padding: 15px 0;
+	}
+
+	.ds-header-inner {
+		flex-wrap: wrap;
+	}
+
+	.ds-nav {
+		width: 100%;
+		order: 3;
+		margin: 10px 0 0 0;
+	}
+
+	.ds-nav ul {
+		justify-content: center;
 	}
 
 	.ds-banner,
@@ -630,6 +688,7 @@ span.ds-department {
 	}
 
 	.ds-about-section {
+		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 
