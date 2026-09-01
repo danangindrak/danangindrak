@@ -98,9 +98,17 @@ AI Engineering
 
 ## 📫 Connect With Me
 
-<p>
-  <a href="https://github.com/danangindrak">
-    <img src="https://img.shields.io/badge/GitHub-danangindrak-181717?style=for-the-badge&logo=github" />
+<p align="left">
+  <a href="https://github.com/danangindrak" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-danangindrak-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/danangindra/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Danang%20Indra-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://www.credly.com/users/danang-indra-kurniawan/badges/credly" target="_blank">
+    <img src="https://img.shields.io/badge/Credly-Certifications-FF6B00?style=for-the-badge&logo=credly&logoColor=white" />
   </a>
 </p>
 
