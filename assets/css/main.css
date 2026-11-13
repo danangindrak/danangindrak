@@ -808,6 +808,27 @@ span.ds-department {
 	font-weight: 400;
 }
 
+/* Project list: confidentiality note */
+.ds-work-note {
+	max-width: 720px;
+	font-size: 15px;
+	line-height: 26px;
+	font-weight: 300;
+	color: #555;
+	margin-bottom: 8px;
+}
+
+/* Project sector label (client identity intentionally generic) */
+.ds-work-sector {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #57b2f7;
+	margin-bottom: 12px;
+}
+
 /* Project tech tags */
 .ds-tags {
 	display: flex;
